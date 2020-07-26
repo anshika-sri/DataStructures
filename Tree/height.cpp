@@ -1,3 +1,5 @@
+//https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1/?track=PC-W6-T&batchId=140
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -115,7 +117,7 @@ int height(Node* root)
    else{
        l = height(root->left);
        r = height(root->right);
-       h = max(l+1, r+1);
+       h = max(l+1, r+1); //or, h = 1 + max(l, r);
    }
 }
 
