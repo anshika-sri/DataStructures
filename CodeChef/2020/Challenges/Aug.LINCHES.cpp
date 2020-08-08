@@ -1,3 +1,5 @@
+//problem link: https://www.codechef.com/AUG20B/problems/LINCHESS
+
 #include <iostream>
 #define N 1000
 #include <algorithm>
